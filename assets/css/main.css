@@ -841,7 +841,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("../img/new-img/brag-11.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1752,8 +1752,9 @@ section {
 .hero {
   width: 100%;
   min-height: 50vh;
-  background-color: var(--color-secondary);
-  background-image: url("../img/hero-bg.png");
+  background: rgb(3,1,37);
+  background: linear-gradient(90deg, rgba(3,1,37,1) 0%, rgba(103,6,75,1) 55%, rgb(75, 3, 53) 96%); 
+  /*background-image: url("../img/hero-bg.png");*/
   background-size: cover;
   background-position: center;
   position: relative;
